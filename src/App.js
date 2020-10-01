@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import './styles.css';
+import './assets/styles/global.css';
 
 import Main from './components/Main';
 
