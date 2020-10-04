@@ -1,6 +1,7 @@
 :root {
   font-size: 62.5%;
-  --backgroud: #393c54;
+  --background: #393c54;
+  --background-claro: #eeeeee;
   --cinza-escuro: #515570;
   --cinza-escuro-opaco: #515570cc;
   --cinza-meio-escuro: #575b79;

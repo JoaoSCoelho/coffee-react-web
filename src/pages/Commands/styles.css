@@ -1,0 +1,27 @@
+#Commands {
+  background: var(--background-claro);
+  display: block;
+  min-height: 100vh;
+}
+
+#Commands main {
+  width: 100%;
+  padding: 1rem;
+}
+
+#Commands main .category-commands strong {
+  line-height: 4rem;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 1.6rem;
+  color: var(--azulado);
+  display: flex;
+  align-items: center;
+}
+
+#Commands main .category-commands strong:hover {
+  opacity: 0.7;
+}
+
+#Commands main .category-commands strong img {
+  height: 2rem;
+}
