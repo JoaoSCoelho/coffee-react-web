@@ -1,0 +1,17 @@
+#Commands p.command-preview-name {
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: var(--meio-branco);
+  color: var(--cinza-escuro);
+  margin: 0.25rem;
+  display: inline-block;
+  transition: 200ms;
+  font-family: 'Kharla', sans-serif;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+#Commands p.command-preview-name:hover {
+  background: var(--azulado);
+  color: #fff;
+}

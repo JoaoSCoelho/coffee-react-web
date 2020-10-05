@@ -9,19 +9,7 @@
   padding: 1rem;
 }
 
-#Commands main .category-commands strong {
-  line-height: 4rem;
-  font-family: 'Ubuntu Mono', monospace;
-  font-size: 1.6rem;
-  color: var(--azulado);
-  display: flex;
-  align-items: center;
-}
-
-#Commands main .category-commands strong:hover {
-  opacity: 0.7;
-}
-
-#Commands main .category-commands strong img {
-  height: 2rem;
+#Commands main .container-command-previews {
+  padding: 0rem 1rem 0.5rem;
+  border-bottom: 2px solid var(--cinza);
 }

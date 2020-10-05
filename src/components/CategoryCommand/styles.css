@@ -1,0 +1,36 @@
+#Commands main .category-commands {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+#Commands main .category-commands:hover {
+  border-bottom: 2px solid var(--azulado);
+}
+
+#Commands main .category-commands strong {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 1.6rem;
+  color: var(--azulado);
+  display: flex;
+  align-items: center;
+  line-height: 2rem;
+}
+
+#Commands main .category-commands strong img {
+  height: 2rem;
+  transition: 200ms;
+}
+
+#Commands main .category-commands .category-commands-counter {
+  border-radius: 0.2rem;
+  min-width: 2rem;
+  padding: 0 0.2rem;
+  line-height: 2rem;
+  color: #fff;
+  background: var(--azulado);
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}

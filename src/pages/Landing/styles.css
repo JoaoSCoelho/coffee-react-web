@@ -10,22 +10,22 @@
   background: var(--background);
 }
 
-#landing main {
+#Landing main {
   min-width: 22rem;
   max-width: 70%;
   text-align: center;
 }
 
-#landing img#logo {
+#Landing img#logo {
   width: 90%;
   margin-bottom: 1rem;
   max-width: 33rem;
 }
-#landing img#logo:hover {
+#Landing img#logo:hover {
   opacity: 0.8;
 }
 
-#landing button {
+#Landing button {
   border: none;
   border-radius: 0.5rem;
   line-height: 5rem;
@@ -37,40 +37,40 @@
   font-family: 'Karla', sans-serif;
 }
 
-#landing button:hover {
+#Landing button:hover {
   color: #cbd4ff;
 }
 
-#landing button#add-bot {
+#Landing button#add-bot {
   background: #f85565e8;
 }
 
-#landing button#comandos-link {
+#Landing button#comandos-link {
   background: repeating-linear-gradient(45deg , #606681, #606681 50%, #6b718e 1px, #6b718e 100%);
 }
 
-#landing button#support-server {
+#Landing button#support-server {
   background: repeating-linear-gradient(135deg , #606681, #606681 50%, #6b718e 1px, #6b718e 100%);
 }
 
-#landing button#add-bot:hover {
+#Landing button#add-bot:hover {
   background: #f85565da;
 }
 
-#landing button#support-server:hover {
+#Landing button#support-server:hover {
   background: repeating-linear-gradient(-45deg , #606681, #606681 50%, #6b718e 1px, #6b718e 100%);
 }
 
-#landing button#comandos-link:hover {
+#Landing button#comandos-link:hover {
   background: repeating-linear-gradient(-135deg , #606681, #606681 50%, #6b718e 1px, #6b718e 100%);
 }
 
 @media (min-width: 800px) {
-  #landing button#add-bot {
+  #Landing button#add-bot {
     width: 100%;
   }
 
-  #landing button {
+  #Landing button {
     line-height: 7rem;
     font-size: 2rem;
     width: calc(50% - 0.2rem);
